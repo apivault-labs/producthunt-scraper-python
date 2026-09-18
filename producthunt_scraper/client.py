@@ -2,8 +2,8 @@
 ProductHuntScraperClient — synchronous wrapper around the Apify
 ``apivault_labs/producthunt-scraper`` actor.
 
-The actor handles all heavy work (Thunderbit scraping, PH API calls,
-derived signal computation, competitor analysis) on Apify infrastructure.
+The actor handles collection, public API calls, derived signal computation,
+and competitor analysis on Apify infrastructure.
 This client forwards inputs, polls until the run finishes, then downloads
 the dataset.
 
@@ -112,7 +112,7 @@ class ProductHuntScraperClient:
     ) -> list[dict[str, Any]]:
         """Analyze specific ProductHunt product URLs.
 
-        No PH API credentials needed — uses Thunderbit as fallback.
+        No PH API credentials needed — collection is handled by the hosted Actor.
 
         Returns list of product records. If `include_competitor_analysis=True`,
         the last record will have `dataType='competitor_analysis'`.
