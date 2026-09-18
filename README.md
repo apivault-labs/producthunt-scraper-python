@@ -93,7 +93,7 @@ pip install -r requirements.txt
 3. Copy your Personal API token
 
 ```bash
-export APIFY_API_TOKEN=apify_api_xxxxxxxxxxxxxxxxxxxxxxxx
+export APIFY_API_TOKEN=YOUR_APIFY_TOKEN
 ```
 
 ### Optional: ProductHunt API credentials (for leaderboard/search/maker/topic)
@@ -228,7 +228,7 @@ Returns estimated USD cost (`product_count × $0.005`).
   "maturityTier": "viral",
   "hasSocialProof": true,
   "pricingTier": "paid",
-  "dataSource": "thunderbit"
+  "dataSource": "hosted"
 }
 ```
 
@@ -272,7 +272,7 @@ Free Apify tier includes ~$5 monthly credit — analyze ~1,000 products per mont
 ## How it works
 
 1. **ProductHunt Official API v2** (when PH credentials provided) — GraphQL, 30+ fields
-2. **Thunderbit** (no credentials needed, Apify infra only) — 13 fields
+2. **Hosted Actor collection** (no extra credentials needed) — 13 fields
 3. **Direct HTML scrape** (last resort) — ~10 fields
 
 ---
