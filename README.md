@@ -297,3 +297,15 @@ MIT — see [LICENSE](LICENSE).
 ## Keywords
 
 `producthunt` `product-hunt` `producthunt-scraper` `producthunt-api` `producthunt-leaderboard` `producthunt-search` `producthunt-maker` `startup-research` `startup-intelligence` `product-launch-tracker` `upvote-tracker` `tech-stack-detection` `competitor-analysis` `trend-monitoring` `launch-monitoring` `maker-portfolio` `web-scraping` `apify` `apify-actor` `python-sdk` `daily-digest` `topic-research`
+
+<!-- apivault-integrations:start -->
+## Hosted Actor and integrations
+
+- [Run Product Hunt Scraper — Bulk CSV Export & API on Apify](https://apify.com/apivault_labs/producthunt-scraper).
+- [Current pricing and usage terms](https://apify.com/apivault_labs/producthunt-scraper/pricing).
+- [n8n community package: n8n-nodes-apivault-producthunt](https://www.npmjs.com/package/n8n-nodes-apivault-producthunt).
+- [Python client](https://github.com/apivault-labs/apivault-labs/tree/main/python-clients/apivault-producthunt-scraper).
+- [n8n source and usage](https://github.com/apivault-labs/apivault-labs/tree/main/community-nodes/n8n-nodes-apivault-producthunt).
+
+An Apify account and API token are required. Hosted Actor/platform charges apply. npm publication is not n8n verification or confirmation of n8n Cloud availability.
+<!-- apivault-integrations:end -->
